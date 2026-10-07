@@ -106,7 +106,7 @@
 # to.
 #
 # For more information, see:
-# https://tuwunel.chat/maintenance.html#backups
+# https://tuwunel.chat/backups.html
 #
 # reloadable: yes
 # example: "/opt/tuwunel-db-backups"
@@ -987,7 +987,7 @@
 
 # Sets the default `m.federate` property for newly created rooms when the
 # client does not request one. If `allow_federation` is set to false at
-# the same this value is set to false it then always overrides the client
+# the same this value is set to false, it then always overrides the client
 # requested `m.federate` value to false.
 #
 # Rooms are fixed to the setting at the time of their creation and can
